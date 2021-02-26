@@ -1,0 +1,65 @@
+
+.comment {color:#666666;}
+div.comment, .x-small	{font-size: 70%;}
+table.content	div.comment, table.content	div.addon	{font-size: 87%;}
+
+table.content	td.menu			{padding: 0 20px 0 40px;}
+table.content	td.addonB		{padding: 0 20px 1em 0;}
+table.content	td.addonR		{padding: 0 20px 1em 20px;}
+
+div.block-copyright	{padding: 0.5em 20px 1.5em 74%; border-top: 1px solid #C5C8D0; margin: 1em 0; font-size: 70%;}
+
+hr		{color:#D2CDD9; width: 100%; height:1px; border-style:none; background-color:#D2CDD9;}
+
+.smaller		{font-size: 80%;}
+
+div.check 	{margin-left: 1.6em; text-indent: -1.6em;}
+
+a.label_select {color:black;text-decoration:none;border-bottom:black 1px dashed;font-weight:bold}
+
+tr.button td {background-color : #E8E9EC} 
+tr.button td.first {background-color : white}
+tr.button td.final {border-right: 20px solid white;}
+tr.button input {margin: 8 0 16 0;} 
+
+.middle {width: 50%}
+.wide {width: 75%}
+
+blockquote {font-size : 80%; margin: 0}
+
+table.internal td p {font-size : 80%; margin-top: 0.5em; }
+
+ul.links		{margin: 0; padding: 0; list-style: none;}
+ul.links	li	{margin-bottom: 0.25em; color: #999999; font-size: 100%}
+
+p.list			{margin-bottom: 0.5em;}
+
+.error			{color: red;}
+.attention {margin-top : 7px;}
+
+table.content ul.service li {margin: 0 0 0.5em 0;}
+table.content ul.service li p {font-size: 100%; margin: 0 0 0.5em 0;}
+table.content ul.service li span.service_name {font-weight: bold;}
+
+
+
+/* inbox */
+div#icon						{ margin-bottom:0.5em; }
+div.inbox-line					{ background-color:#eeebdc; float:left; padding:5px; margin-bottom:0.5em; }
+div.inbox-line table			{ background-color:white; border-width:0; }
+div.inbox-line table td#left	{ background:url('/images/inbox-mail-bl.gif') no-repeat bottom right; padding:0; vertical-align:top; text-align:right; }
+div.inbox-line table td#inbox_logout	{ padding:0; background:white url('/images/inbox-mail-br.gif') no-repeat bottom left; vertical-align:top; text-align:left; width:3px; }
+div.inbox-line table td {line-height: 1.em}
+#inbox_counter_mail  img		{width:16px; height:16px; vertical-align:middle;}
+ 
+div#status_bar { background:url('status_bg.gif'); background-repeat:repeat-x; width:50%; margin:8px 0 1em 0; }
+div#quality_status { height:8px;width:0; }
+div.red_status { background:url('red_bg.gif'); background-repeat:repeat-x; }
+div.yellow_status { background:url('yellow_bg.gif'); background-repeat:repeat-x; }
+div.green_status { background:url('green_bg.gif'); background-repeat:repeat-x; }
+
+ul.switcher { margin: 0; padding: 0; }
+ul.switcher li { list-style: none; padding: 0.3em 0.5em; margin: 0.1em 0 0; float: left; clear: left; white-space: nowrap; }
+ul.switcher .selected { background-color: #FFEB8E; }
+ul.switcher .selected a { color: black; }
+

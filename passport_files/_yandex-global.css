@@ -1,0 +1,108 @@
+body			{margin: 0; padding:0; color: black; background-color: white;}
+body, td		{font-family: Arial, Geneva CY, Sans-Serif;}
+
+form			{margin: 0;}
+p				{margin: 0 0 1em 0;}
+
+.dump			{font-size: 1px;}
+tr.spacer td	{padding:0; height:1px;}
+
+h1				{font-size: 150%; font-weight: normal; margin: 0 0 0.8em 0;}
+h2				{font-size: 120%; font-weight: normal; margin: 0 0 0.25em 0;}
+h3				{font-size: 100%; font-weight: bold; margin:0 0 0.25em 0;}
+h4				{font-size: 100%; font-weight: normal; margin: 0;}
+
+table.global-menu	{margin-bottom: 0.5em;}
+td.global-menu		{font-family: Verdana, Arial, Geneva CY, Sans-Serif; font-size: 70%; padding: 5px 0 5px 10px;}
+td.global-menu	a,  td.global-menu a:visited									{color: black;}
+
+form.search td	{font-size: 80%; padding: 6px;}
+
+table.home-head  {margin-bottom: 0.5em;}
+table.home-head	td {font-family: Verdana, Arial, Geneva CY, Sans-Serif; font-size: 70%; padding: 7px 0 8px 10px;}
+table.home-head	td[id=mail] {padding-bottom: 7px;} /*padding for Mozilla*/
+table.home-head	a  {color: black;}
+
+table.global-project						{height:70px;}
+table.global-project	td					{padding: 4px 10px; font-size: 80%;}
+table.global-project	td.menu				{padding: 0px 0px 0px 8px; vertical-align:bottom;}
+table.global-project	td.menu	td			{padding: 0px 8px 7px 8px; font-size: 80%; vertical-align:bottom;}
+table.global-project	td.logo				{padding: 0;   }
+table.global-project	td.logo div			{margin: 0 25px;}
+table.global-project	td.user				{font-family: Verdana, Arial, Geneva CY, Sans-Serif; font-size: 70%; padding: 5px 0 5px 10px;}
+table.global-project	tr.spacer	td		{padding:0; height:1px;}
+table.global-project td.logo-project {padding: 2px 0px 0px 15px;}
+
+
+table.mainlinks	td						{padding-top: 0;}
+table.mainlinks	a						{font-size: 70%; color: black; margin-right: 1em;}
+
+div.logo								{font-family: Arial; font-size: 11px; margin: 0 18px  0 40px;}
+
+table.block-header							{margin-top: 0.5em; height: 5em;}
+
+form.search	tr.tabs		td				{padding: 6px 8px 2px 8px;}
+form.search	tr.subtabs	td				{height: 4px; padding: 0;}
+form.search	tr.subtabs	div				{height: 2px; width: 4px;}
+form.search	a							{color: black;}
+form.search	tr.tabs		td.padder-t		{border-bottom: 0; padding: 0px;}
+form.search	tr.tabs		td.padder-t	div	{height: 2px; width: 4px;}
+form.search	tr.subtabs	td.padder-b		{border-top: 0;}
+
+table.search	td.arr					{padding: 0; background-image: url(http://img.yandex.net/i/arr-t.gif); background-repeat: no-repeat;}
+table.search	td.tune					{padding: 0 2px 6px 2px;}
+table.search	td.tune table td		{padding: 0; margin:0;}
+table.search 	td.searchString input	{width: 100%;}
+
+table.footer							{border-top: 1px solid #C5C8D0;}
+table.footer	td						{font-size: 70%;}
+table.footer	div.copyright			{margin-top: 10px;  margin-right: 10px;}
+table.footer div.copyright span {white-space: nowrap;}
+
+/* content */
+table.content	td.menu						{padding: 0 20px 0 25px;}
+table.content	td.menu	div.h				{font-size: 80%; font-weight: bold;}
+table.content	td.menu-title				{padding: 0 10px 0 0;}
+table.content	td.menu	p.hint				{font-size: 80%; margin: 0 0 1em 0;}
+table.content	td.menu	p.status			{font-size: 80%; margin: 7px 0 1.5em 0; font-weight: bold;}
+
+table.content	td.body			{padding: 0 20px 0 0;}
+table.content	td.body	p, table.content	td.body	div, table.content	td.body	ul, table.content	td.body	ol		{font-size: 80%;}
+
+table.content	td.body	ul ul, table.content	td.body	ul ol,	table.content	td.body	ol ol, table.content	td.body	ol ul	{font-size: 100%;}
+
+table.content	td.body	p.hint	{padding-right: 20px; font-size: 70%;}
+
+table.content	td.label		{font-size: 80%; padding: 0 7px 1em 0px;}
+table.content	td.input		{font-size: 80%; padding: 0 10px 1em 0;}
+table.content	td.inputR		{padding: 0 20px 1em 0; font-size: 80%;}
+table.content	td.input2		{padding: 0 5px 1em 0; font-size: 80%;}
+table.content	td.addon		{padding: 0 20px 1em 0; font-size: 80%;}
+table.content	td.hr			{padding: 0 20px 1em 0px;}
+
+div.check 						{margin-left: 1.6em; text-indent: -1.6em;}
+a.not-found                     {color: #707070;}
+
+
+/* submenu */
+ul.menu		{margin:0; padding: 0 0 1.5em 1.5em; font-size: 80%;}
+ul.menu	li						{list-style-image:url(http://img.yandex.net/i/menuitem.gif); margin-bottom: 0.5em; list-style-type:none;}
+ul.menu	li.current				{list-style-image:url(http://img.yandex.net/i/menuitem-current.gif); list-style-type:none;}
+ul.menu	ul.menu					{font-size: 100%; margin:0; padding: 0.5em 0 0 1.5em; list-style-type:none;}
+
+ul.menu li.shortcut			{list-style-image:url(http://img.yandex.net/i/shortcut.gif); list-style-type:none;}
+ul.shortcut		{margin:0; padding:0 1.5em; font-size: 80%; list-style-type:none;}
+ul.shortcut	li					{list-style-image:url(http://img.yandex.net/i/shortcut.gif); margin-bottom: 0.5em; list-style-type:none;}
+
+/* —сылка на PDA версию в подвале (begin) */
+    .b-pda-foot
+    {
+        margin-top: 1em;
+    }
+
+    /* div только дл€ msie, без него синий цвет у ссылки */
+    div.b-pda-foot a
+    {
+        color: #070;
+    }
+/* —сылка на PDA версию в подвале (end) */

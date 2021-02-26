@@ -1,0 +1,32 @@
+table.global-project    td  a                   {color: white;}
+table.global-project    td  a.active,   table.global-project    td.menu td.active   a       {color: black;}
+table.global-project    td.menu td.active       {color: black; background-color: #FFE77E}
+
+.menu-disabled  {color: #C06666;}
+
+
+table.registration-donex td { border: 1px solid red; }
+table.registration-donex td td { border: 0px solid red; }
+table.registration-donex tr.spacer td { height: 1em; }
+table.registration-done h1,
+table.registration-done h3 { margin: 2em 0 0 0; padding: 0; font-weight: normal; }
+table.registration-done h1 { font-size: 1.5em; }
+table.registration-done h3 { font-size: 1.2em; margin: 0 0 0.5em; }
+table.registration-done td.left { padding-left: 15px; }
+table.registration-done td p.small { font-size: 0.69em; }
+table.registration-done td.print { padding-left: 40px; }
+table.registration-done td.print p { position: relative; z-index: 1; }
+table.registration-done td.print p img { position: absolute; left: -18px; }
+table.registration-done tr.sideInfo td { background-color: #e8e9ec; }
+table.registration-done tr.sideInfo td.body { padding-top: 0.3em; }
+table.registration-done tr.sideInfo td.label { text-align: right; }
+table.registration-done tr.sideInfo td.label div { float: right; text-align: left; width: 10em; margin-top: 0.21em; }
+table.registration-done tr.sideInfo table td.label { width: 32%; }
+table.registration-done tr.sideInfo table td.input { padding-left: 15px; }
+table.registration-done tr.sideInfo table .wide { width: 70%; }
+table.registration-done tr.sideInfo table td.line { padding: 0 10px; }
+
+tr.phones-msg td { background-color: #e8e9ec; padding-top: 1em; padding-bottom: 1em; }
+tr.phones-msg .phones-label { font-weight: bold; margin-top: 0.25em; margin-bottom: 0.25em; }
+tr.phones-err td div { color: #ff0000; padding-top: 1em; padding-bottom: 1em; }
+table.registration-done tr.phones-msg td { padding-top: 0.5em; padding-bottom: 0.5em; }
